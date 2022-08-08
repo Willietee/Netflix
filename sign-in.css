@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    border: 0;
+}
+
+.sign-in-page{
+    background-image: url(bgimg.jpg);
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 450px;
+    right: 200px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.705);
+    width: 30%;
+    height: 80%;
+    border: 5%;
+    border-radius: 10px;
+}
+
+.everything input{
+    margin-top: 30px;
+}
+
+.text{
+    font-size: 30px;
+    left: 50px;
+    color: white;
+}
+
+.em-no{
+    padding: 20px 100px;
+    border-radius: 3px;
+    background-color: rgb(34, 32, 32);
+}
+
+.pword{
+    padding: 20px 100px;
+    border-radius: 3px;
+    background-color: rgb(34, 32, 32);
+}
+
+.btn{
+    padding: 20px 165px;
+    border-radius: 3px;
+    box-shadow: none;
+    background-color: rgb(235, 15, 15);
+    background-color: rgb(235, 15, 15);
+}
+
+.rem-help{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+h3{
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+footer{
+    margin-top: 150px;
+    width: 1000%;
+    height: 8%;
+    background-color: rgba(0, 0, 0, 0.89);
+    position: absolute;
+    top: 70%;
+    display: flex;
+}
+
+ul{
+    display: flex;
+    width: 1000px;
+}
+
+li{
+    margin-right: 40px;
+}
